@@ -6,5 +6,5 @@
 
 # ![Project tittles](https://img.shields.io/badge/%20📍-PROJECTS-blue?style=for-the-badge)
    + `URL Shortener`
-   - `Job board`
+
 
