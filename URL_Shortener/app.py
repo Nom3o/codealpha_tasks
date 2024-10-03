@@ -9,7 +9,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'randomsecretkey'
 db.init_app(app)
 
-# Generate a random short URL
+# Generate a random short URL for the given long URL
 def generate_short_id(num_of_chars):
     return ''.join(random.choices(string.ascii_letters + string.digits, k=num_of_chars))
 
